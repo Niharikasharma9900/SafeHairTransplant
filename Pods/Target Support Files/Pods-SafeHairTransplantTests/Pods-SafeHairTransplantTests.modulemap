@@ -1,0 +1,6 @@
+framework module Pods_SafeHairTransplantTests {
+  umbrella header "Pods-SafeHairTransplantTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
