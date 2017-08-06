@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		299959791F36945B00647EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299959781F36945B00647EF7 /* AppDelegate.swift */; };
+		2999597B1F36945B00647EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2999597A1F36945B00647EF7 /* ViewController.swift */; };
+		2999597E1F36945B00647EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2999597C1F36945B00647EF7 /* Main.storyboard */; };
+		299959811F36945B00647EF7 /* SafeHairTransplant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2999597F1F36945B00647EF7 /* SafeHairTransplant.xcdatamodeld */; };
+		299959831F36945B00647EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299959821F36945B00647EF7 /* Assets.xcassets */; };
+		299959861F36945B00647EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299959841F36945B00647EF7 /* LaunchScreen.storyboard */; };
+		299959911F36945B00647EF7 /* SafeHairTransplantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299959901F36945B00647EF7 /* SafeHairTransplantTests.swift */; };
+		2999599C1F36945B00647EF7 /* SafeHairTransplantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2999599B1F36945B00647EF7 /* SafeHairTransplantUITests.swift */; };
+		299959AB1F36A42000647EF7 /* SafeHair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299959AA1F36A42000647EF7 /* SafeHair.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2999598D1F36945B00647EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2999596D1F36945B00647EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 299959741F36945B00647EF7;
+			remoteInfo = SafeHairTransplant;
+		};
+		299959981F36945B00647EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2999596D1F36945B00647EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 299959741F36945B00647EF7;
+			remoteInfo = SafeHairTransplant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		299959751F36945B00647EF7 /* SafeHairTransplant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeHairTransplant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		299959781F36945B00647EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2999597A1F36945B00647EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2999597D1F36945B00647EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		299959801F36945B00647EF7 /* SafeHairTransplant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SafeHairTransplant.xcdatamodel; sourceTree = "<group>"; };
+		299959821F36945B00647EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		299959851F36945B00647EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		299959871F36945B00647EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2999598C1F36945B00647EF7 /* SafeHairTransplantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeHairTransplantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		299959901F36945B00647EF7 /* SafeHairTransplantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeHairTransplantTests.swift; sourceTree = "<group>"; };
+		299959921F36945B00647EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299959971F36945B00647EF7 /* SafeHairTransplantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeHairTransplantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2999599B1F36945B00647EF7 /* SafeHairTransplantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeHairTransplantUITests.swift; sourceTree = "<group>"; };
+		2999599D1F36945B00647EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299959AA1F36A42000647EF7 /* SafeHair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeHair.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		299959721F36945B00647EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299959891F36945B00647EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299959941F36945B00647EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2999596C1F36945B00647EF7 = {
+			isa = PBXGroup;
+			children = (
+				299959771F36945B00647EF7 /* SafeHairTransplant */,
+				2999598F1F36945B00647EF7 /* SafeHairTransplantTests */,
+				2999599A1F36945B00647EF7 /* SafeHairTransplantUITests */,
+				299959761F36945B00647EF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		299959761F36945B00647EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				299959751F36945B00647EF7 /* SafeHairTransplant.app */,
+				2999598C1F36945B00647EF7 /* SafeHairTransplantTests.xctest */,
+				299959971F36945B00647EF7 /* SafeHairTransplantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		299959771F36945B00647EF7 /* SafeHairTransplant */ = {
+			isa = PBXGroup;
+			children = (
+				299959A91F36A3ED00647EF7 /* Model */,
+				299959781F36945B00647EF7 /* AppDelegate.swift */,
+				2999597A1F36945B00647EF7 /* ViewController.swift */,
+				2999597C1F36945B00647EF7 /* Main.storyboard */,
+				299959821F36945B00647EF7 /* Assets.xcassets */,
+				299959841F36945B00647EF7 /* LaunchScreen.storyboard */,
+				299959871F36945B00647EF7 /* Info.plist */,
+				2999597F1F36945B00647EF7 /* SafeHairTransplant.xcdatamodeld */,
+			);
+			path = SafeHairTransplant;
+			sourceTree = "<group>";
+		};
+		2999598F1F36945B00647EF7 /* SafeHairTransplantTests */ = {
+			isa = PBXGroup;
+			children = (
+				299959901F36945B00647EF7 /* SafeHairTransplantTests.swift */,
+				299959921F36945B00647EF7 /* Info.plist */,
+			);
+			path = SafeHairTransplantTests;
+			sourceTree = "<group>";
+		};
+		2999599A1F36945B00647EF7 /* SafeHairTransplantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2999599B1F36945B00647EF7 /* SafeHairTransplantUITests.swift */,
+				2999599D1F36945B00647EF7 /* Info.plist */,
+			);
+			path = SafeHairTransplantUITests;
+			sourceTree = "<group>";
+		};
+		299959A91F36A3ED00647EF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				299959AA1F36A42000647EF7 /* SafeHair.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		299959741F36945B00647EF7 /* SafeHairTransplant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299959A01F36945B00647EF7 /* Build configuration list for PBXNativeTarget "SafeHairTransplant" */;
+			buildPhases = (
+				299959711F36945B00647EF7 /* Sources */,
+				299959721F36945B00647EF7 /* Frameworks */,
+				299959731F36945B00647EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafeHairTransplant;
+			productName = SafeHairTransplant;
+			productReference = 299959751F36945B00647EF7 /* SafeHairTransplant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2999598B1F36945B00647EF7 /* SafeHairTransplantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299959A31F36945C00647EF7 /* Build configuration list for PBXNativeTarget "SafeHairTransplantTests" */;
+			buildPhases = (
+				299959881F36945B00647EF7 /* Sources */,
+				299959891F36945B00647EF7 /* Frameworks */,
+				2999598A1F36945B00647EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2999598E1F36945B00647EF7 /* PBXTargetDependency */,
+			);
+			name = SafeHairTransplantTests;
+			productName = SafeHairTransplantTests;
+			productReference = 2999598C1F36945B00647EF7 /* SafeHairTransplantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		299959961F36945B00647EF7 /* SafeHairTransplantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299959A61F36945C00647EF7 /* Build configuration list for PBXNativeTarget "SafeHairTransplantUITests" */;
+			buildPhases = (
+				299959931F36945B00647EF7 /* Sources */,
+				299959941F36945B00647EF7 /* Frameworks */,
+				299959951F36945B00647EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				299959991F36945B00647EF7 /* PBXTargetDependency */,
+			);
+			name = SafeHairTransplantUITests;
+			productName = SafeHairTransplantUITests;
+			productReference = 299959971F36945B00647EF7 /* SafeHairTransplantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2999596D1F36945B00647EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Niharika Sharma";
+				TargetAttributes = {
+					299959741F36945B00647EF7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GV4M34B49U;
+						ProvisioningStyle = Automatic;
+					};
+					2999598B1F36945B00647EF7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GV4M34B49U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 299959741F36945B00647EF7;
+					};
+					299959961F36945B00647EF7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GV4M34B49U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 299959741F36945B00647EF7;
+					};
+				};
+			};
+			buildConfigurationList = 299959701F36945B00647EF7 /* Build configuration list for PBXProject "SafeHairTransplant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2999596C1F36945B00647EF7;
+			productRefGroup = 299959761F36945B00647EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				299959741F36945B00647EF7 /* SafeHairTransplant */,
+				2999598B1F36945B00647EF7 /* SafeHairTransplantTests */,
+				299959961F36945B00647EF7 /* SafeHairTransplantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		299959731F36945B00647EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299959861F36945B00647EF7 /* LaunchScreen.storyboard in Resources */,
+				299959831F36945B00647EF7 /* Assets.xcassets in Resources */,
+				2999597E1F36945B00647EF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2999598A1F36945B00647EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299959951F36945B00647EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		299959711F36945B00647EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299959AB1F36A42000647EF7 /* SafeHair.swift in Sources */,
+				299959811F36945B00647EF7 /* SafeHairTransplant.xcdatamodeld in Sources */,
+				2999597B1F36945B00647EF7 /* ViewController.swift in Sources */,
+				299959791F36945B00647EF7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299959881F36945B00647EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299959911F36945B00647EF7 /* SafeHairTransplantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299959931F36945B00647EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2999599C1F36945B00647EF7 /* SafeHairTransplantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2999598E1F36945B00647EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 299959741F36945B00647EF7 /* SafeHairTransplant */;
+			targetProxy = 2999598D1F36945B00647EF7 /* PBXContainerItemProxy */;
+		};
+		299959991F36945B00647EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 299959741F36945B00647EF7 /* SafeHairTransplant */;
+			targetProxy = 299959981F36945B00647EF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2999597C1F36945B00647EF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2999597D1F36945B00647EF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		299959841F36945B00647EF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299959851F36945B00647EF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2999599E1F36945B00647EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2999599F1F36945B00647EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		299959A11F36945B00647EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GV4M34B49U;
+				INFOPLIST_FILE = SafeHairTransplant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Niharika.SafeHairTransplant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		299959A21F36945B00647EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GV4M34B49U;
+				INFOPLIST_FILE = SafeHairTransplant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Niharika.SafeHairTransplant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		299959A41F36945C00647EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GV4M34B49U;
+				INFOPLIST_FILE = SafeHairTransplantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Niharika.SafeHairTransplantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeHairTransplant.app/SafeHairTransplant";
+			};
+			name = Debug;
+		};
+		299959A51F36945C00647EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GV4M34B49U;
+				INFOPLIST_FILE = SafeHairTransplantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Niharika.SafeHairTransplantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeHairTransplant.app/SafeHairTransplant";
+			};
+			name = Release;
+		};
+		299959A71F36945C00647EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GV4M34B49U;
+				INFOPLIST_FILE = SafeHairTransplantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Niharika.SafeHairTransplantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SafeHairTransplant;
+			};
+			name = Debug;
+		};
+		299959A81F36945C00647EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GV4M34B49U;
+				INFOPLIST_FILE = SafeHairTransplantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Niharika.SafeHairTransplantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SafeHairTransplant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		299959701F36945B00647EF7 /* Build configuration list for PBXProject "SafeHairTransplant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2999599E1F36945B00647EF7 /* Debug */,
+				2999599F1F36945B00647EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299959A01F36945B00647EF7 /* Build configuration list for PBXNativeTarget "SafeHairTransplant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299959A11F36945B00647EF7 /* Debug */,
+				299959A21F36945B00647EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		299959A31F36945C00647EF7 /* Build configuration list for PBXNativeTarget "SafeHairTransplantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299959A41F36945C00647EF7 /* Debug */,
+				299959A51F36945C00647EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		299959A61F36945C00647EF7 /* Build configuration list for PBXNativeTarget "SafeHairTransplantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299959A71F36945C00647EF7 /* Debug */,
+				299959A81F36945C00647EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2999597F1F36945B00647EF7 /* SafeHairTransplant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				299959801F36945B00647EF7 /* SafeHairTransplant.xcdatamodel */,
+			);
+			currentVersion = 299959801F36945B00647EF7 /* SafeHairTransplant.xcdatamodel */;
+			path = SafeHairTransplant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2999596D1F36945B00647EF7 /* Project object */;
+}
