@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AlamofireImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SafeHairTransplant.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,7 +42,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B31E0A40E5F02426408A6A8D435D8014</key>
+		<key>90D8CE0C102DA0576B413F853D6F8965</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EFE4C70245EE2857D336B8B9FA4E825</key>
 		<dict>
 			<key>primary</key>
 			<true/>
